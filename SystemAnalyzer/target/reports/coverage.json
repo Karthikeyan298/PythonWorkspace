@@ -1,0 +1,73 @@
+{
+  "module_names": [
+    {
+      "branches": 0, 
+      "branches_missing": 0, 
+      "branches_partial": 0, 
+      "coverage": 100, 
+      "lines": [], 
+      "lines_not_covered": [], 
+      "module": "com", 
+      "sum_lines": 0, 
+      "sum_lines_not_covered": 0
+    }, 
+    {
+      "branches": 0, 
+      "branches_missing": 0, 
+      "branches_partial": 0, 
+      "coverage": 100, 
+      "lines": [], 
+      "lines_not_covered": [], 
+      "module": "com.appranix", 
+      "sum_lines": 0, 
+      "sum_lines_not_covered": 0
+    }, 
+    {
+      "branches": 0, 
+      "branches_missing": 0, 
+      "branches_partial": 0, 
+      "coverage": 100, 
+      "lines": [], 
+      "lines_not_covered": [], 
+      "module": "com.appranix.controller", 
+      "sum_lines": 0, 
+      "sum_lines_not_covered": 0
+    }, 
+    {
+      "branches": 0, 
+      "branches_missing": 0, 
+      "branches_partial": 0, 
+      "coverage": 100, 
+      "lines": [], 
+      "lines_not_covered": [], 
+      "module": "com.appranix.dbutil", 
+      "sum_lines": 0, 
+      "sum_lines_not_covered": 0
+    }, 
+    {
+      "branches": 0, 
+      "branches_missing": 0, 
+      "branches_partial": 0, 
+      "coverage": 100, 
+      "lines": [], 
+      "lines_not_covered": [], 
+      "module": "com.appranix.collector", 
+      "sum_lines": 0, 
+      "sum_lines_not_covered": 0
+    }, 
+    {
+      "branches": 0, 
+      "branches_missing": 0, 
+      "branches_partial": 0, 
+      "coverage": 100, 
+      "lines": [], 
+      "lines_not_covered": [], 
+      "module": "com.appranix.entities", 
+      "sum_lines": 0, 
+      "sum_lines_not_covered": 0
+    }
+  ], 
+  "overall_branch_coverage": 100, 
+  "overall_branch_partial_coverage": 100, 
+  "overall_coverage": 100
+}

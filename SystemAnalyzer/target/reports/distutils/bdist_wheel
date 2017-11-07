@@ -1,0 +1,97 @@
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/com
+copying com/__init__.py -> build/lib.linux-x86_64-2.7/com
+creating build/lib.linux-x86_64-2.7/com/appranix
+copying com/appranix/start_system_analyzer.py -> build/lib.linux-x86_64-2.7/com/appranix
+copying com/appranix/__init__.py -> build/lib.linux-x86_64-2.7/com/appranix
+creating build/lib.linux-x86_64-2.7/com/appranix/service
+copying com/appranix/service/__init__.py -> build/lib.linux-x86_64-2.7/com/appranix/service
+copying com/appranix/service/report_service.py -> build/lib.linux-x86_64-2.7/com/appranix/service
+creating build/lib.linux-x86_64-2.7/com/appranix/controller
+copying com/appranix/controller/reports_controller.py -> build/lib.linux-x86_64-2.7/com/appranix/controller
+copying com/appranix/controller/__init__.py -> build/lib.linux-x86_64-2.7/com/appranix/controller
+creating build/lib.linux-x86_64-2.7/com/appranix/dbutil
+copying com/appranix/dbutil/__init__.py -> build/lib.linux-x86_64-2.7/com/appranix/dbutil
+copying com/appranix/dbutil/DBUtil.py -> build/lib.linux-x86_64-2.7/com/appranix/dbutil
+creating build/lib.linux-x86_64-2.7/com/appranix/collector
+copying com/appranix/collector/metrics_collector.py -> build/lib.linux-x86_64-2.7/com/appranix/collector
+copying com/appranix/collector/__init__.py -> build/lib.linux-x86_64-2.7/com/appranix/collector
+creating build/lib.linux-x86_64-2.7/com/appranix/entities
+copying com/appranix/entities/report_data.py -> build/lib.linux-x86_64-2.7/com/appranix/entities
+copying com/appranix/entities/__init__.py -> build/lib.linux-x86_64-2.7/com/appranix/entities
+running build_scripts
+creating build/scripts-2.7
+copying scripts/start_system_analyzer.py -> build/scripts-2.7
+changing mode of build/scripts-2.7/start_system_analyzer.py from 664 to 775
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/com
+creating build/bdist.linux-x86_64/wheel/com/appranix
+creating build/bdist.linux-x86_64/wheel/com/appranix/service
+copying build/lib.linux-x86_64-2.7/com/appranix/service/__init__.py -> build/bdist.linux-x86_64/wheel/com/appranix/service
+copying build/lib.linux-x86_64-2.7/com/appranix/service/report_service.py -> build/bdist.linux-x86_64/wheel/com/appranix/service
+creating build/bdist.linux-x86_64/wheel/com/appranix/controller
+copying build/lib.linux-x86_64-2.7/com/appranix/controller/reports_controller.py -> build/bdist.linux-x86_64/wheel/com/appranix/controller
+copying build/lib.linux-x86_64-2.7/com/appranix/controller/__init__.py -> build/bdist.linux-x86_64/wheel/com/appranix/controller
+creating build/bdist.linux-x86_64/wheel/com/appranix/dbutil
+copying build/lib.linux-x86_64-2.7/com/appranix/dbutil/__init__.py -> build/bdist.linux-x86_64/wheel/com/appranix/dbutil
+copying build/lib.linux-x86_64-2.7/com/appranix/dbutil/DBUtil.py -> build/bdist.linux-x86_64/wheel/com/appranix/dbutil
+copying build/lib.linux-x86_64-2.7/com/appranix/start_system_analyzer.py -> build/bdist.linux-x86_64/wheel/com/appranix
+copying build/lib.linux-x86_64-2.7/com/appranix/__init__.py -> build/bdist.linux-x86_64/wheel/com/appranix
+creating build/bdist.linux-x86_64/wheel/com/appranix/collector
+copying build/lib.linux-x86_64-2.7/com/appranix/collector/metrics_collector.py -> build/bdist.linux-x86_64/wheel/com/appranix/collector
+copying build/lib.linux-x86_64-2.7/com/appranix/collector/__init__.py -> build/bdist.linux-x86_64/wheel/com/appranix/collector
+creating build/bdist.linux-x86_64/wheel/com/appranix/entities
+copying build/lib.linux-x86_64-2.7/com/appranix/entities/report_data.py -> build/bdist.linux-x86_64/wheel/com/appranix/entities
+copying build/lib.linux-x86_64-2.7/com/appranix/entities/__init__.py -> build/bdist.linux-x86_64/wheel/com/appranix/entities
+copying build/lib.linux-x86_64-2.7/com/__init__.py -> build/bdist.linux-x86_64/wheel/com
+running install_egg_info
+running egg_info
+writing requirements to SystemAnalyzer.egg-info/requires.txt
+writing SystemAnalyzer.egg-info/PKG-INFO
+writing namespace_packages to SystemAnalyzer.egg-info/namespace_packages.txt
+writing top-level names to SystemAnalyzer.egg-info/top_level.txt
+writing dependency_links to SystemAnalyzer.egg-info/dependency_links.txt
+reading manifest file 'SystemAnalyzer.egg-info/SOURCES.txt'
+writing manifest file 'SystemAnalyzer.egg-info/SOURCES.txt'
+Copying SystemAnalyzer.egg-info to build/bdist.linux-x86_64/wheel/SystemAnalyzer-1.0.dev0-py2.7.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/SystemAnalyzer-1.0.dev0.data
+creating build/bdist.linux-x86_64/wheel/SystemAnalyzer-1.0.dev0.data/scripts
+copying build/scripts-2.7/start_system_analyzer.py -> build/bdist.linux-x86_64/wheel/SystemAnalyzer-1.0.dev0.data/scripts
+changing mode of build/bdist.linux-x86_64/wheel/SystemAnalyzer-1.0.dev0.data/scripts/start_system_analyzer.py to 775
+creating build/bdist.linux-x86_64/wheel/SystemAnalyzer-1.0.dev0.dist-info/WHEEL
+creating '/home/user/workspace/PythonWorkspace/SystemAnalyzer/target/dist/SystemAnalyzer-1.0.dev0/dist/SystemAnalyzer-1.0.dev0-py2-none-any.whl' and adding '.' to it
+adding 'SystemAnalyzer-1.0.dev0.data/scripts/start_system_analyzer.py'
+adding 'com/__init__.py'
+adding 'com/appranix/__init__.py'
+adding 'com/appranix/start_system_analyzer.py'
+adding 'com/appranix/collector/__init__.py'
+adding 'com/appranix/collector/metrics_collector.py'
+adding 'com/appranix/controller/__init__.py'
+adding 'com/appranix/controller/reports_controller.py'
+adding 'com/appranix/dbutil/DBUtil.py'
+adding 'com/appranix/dbutil/__init__.py'
+adding 'com/appranix/entities/__init__.py'
+adding 'com/appranix/entities/report_data.py'
+adding 'com/appranix/service/__init__.py'
+adding 'com/appranix/service/report_service.py'
+adding 'SystemAnalyzer-1.0.dev0.dist-info/DESCRIPTION.rst'
+adding 'SystemAnalyzer-1.0.dev0.dist-info/metadata.json'
+adding 'SystemAnalyzer-1.0.dev0.dist-info/namespace_packages.txt'
+adding 'SystemAnalyzer-1.0.dev0.dist-info/top_level.txt'
+adding 'SystemAnalyzer-1.0.dev0.dist-info/zip-safe'
+adding 'SystemAnalyzer-1.0.dev0.dist-info/WHEEL'
+adding 'SystemAnalyzer-1.0.dev0.dist-info/METADATA'
+adding 'SystemAnalyzer-1.0.dev0.dist-info/RECORD'

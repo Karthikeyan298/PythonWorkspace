@@ -1,0 +1,10 @@
+Name                                  Stmts   Miss Branch BrPart  Cover
+-----------------------------------------------------------------------
+com/__init__.py                           0      0      0      0   100%
+com/appranix/__init__.py                  0      0      0      0   100%
+com/appranix/collector/__init__.py        0      0      0      0   100%
+com/appranix/controller/__init__.py       0      0      0      0   100%
+com/appranix/dbutil/__init__.py           0      0      0      0   100%
+com/appranix/entities/__init__.py         0      0      0      0   100%
+-----------------------------------------------------------------------
+TOTAL                                     0      0      0      0   100%

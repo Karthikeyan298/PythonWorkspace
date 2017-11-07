@@ -1,0 +1,48 @@
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/myproject
+copying myproject/__init__.py -> build/lib.linux-x86_64-2.7/myproject
+running build_scripts
+creating build/scripts-2.7
+copying scripts/greeter -> build/scripts-2.7
+changing mode of build/scripts-2.7/greeter from 664 to 775
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/myproject
+copying build/lib.linux-x86_64-2.7/myproject/__init__.py -> build/bdist.linux-x86_64/wheel/myproject
+running install_egg_info
+running egg_info
+writing myproject.egg-info/PKG-INFO
+writing namespace_packages to myproject.egg-info/namespace_packages.txt
+writing top-level names to myproject.egg-info/top_level.txt
+writing dependency_links to myproject.egg-info/dependency_links.txt
+reading manifest file 'myproject.egg-info/SOURCES.txt'
+writing manifest file 'myproject.egg-info/SOURCES.txt'
+Copying myproject.egg-info to build/bdist.linux-x86_64/wheel/myproject-1.0.dev0-py2.7.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/myproject-1.0.dev0.data
+creating build/bdist.linux-x86_64/wheel/myproject-1.0.dev0.data/scripts
+copying build/scripts-2.7/greeter -> build/bdist.linux-x86_64/wheel/myproject-1.0.dev0.data/scripts
+changing mode of build/bdist.linux-x86_64/wheel/myproject-1.0.dev0.data/scripts/greeter to 775
+creating build/bdist.linux-x86_64/wheel/myproject-1.0.dev0.dist-info/WHEEL
+creating '/home/user/workspace/PythonWorkspace/myproject/target/dist/myproject-1.0.dev0/dist/myproject-1.0.dev0-py2-none-any.whl' and adding '.' to it
+adding 'myproject/__init__.py'
+adding 'myproject-1.0.dev0.data/scripts/greeter'
+adding 'myproject-1.0.dev0.dist-info/DESCRIPTION.rst'
+adding 'myproject-1.0.dev0.dist-info/metadata.json'
+adding 'myproject-1.0.dev0.dist-info/namespace_packages.txt'
+adding 'myproject-1.0.dev0.dist-info/top_level.txt'
+adding 'myproject-1.0.dev0.dist-info/zip-safe'
+adding 'myproject-1.0.dev0.dist-info/WHEEL'
+adding 'myproject-1.0.dev0.dist-info/METADATA'
+adding 'myproject-1.0.dev0.dist-info/RECORD'

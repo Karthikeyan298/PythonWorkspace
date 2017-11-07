@@ -1,0 +1,13 @@
+Collecting flake8~=3.2
+  Using cached flake8-3.5.0-py2.py3-none-any.whl
+Collecting mccabe<0.7.0,>=0.6.0 (from flake8~=3.2)
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl
+Collecting enum34; python_version < "3.4" (from flake8~=3.2)
+  Using cached enum34-1.1.6-py2-none-any.whl
+Collecting configparser; python_version < "3.2" (from flake8~=3.2)
+Collecting pycodestyle<2.4.0,>=2.0.0 (from flake8~=3.2)
+  Using cached pycodestyle-2.3.1-py2.py3-none-any.whl
+Collecting pyflakes<1.7.0,>=1.5.0 (from flake8~=3.2)
+  Using cached pyflakes-1.6.0-py2.py3-none-any.whl
+Installing collected packages: mccabe, enum34, configparser, pycodestyle, pyflakes, flake8
+Successfully installed configparser-3.5.0 enum34-1.1.6 flake8-3.5.0 mccabe-0.6.1 pycodestyle-2.3.1 pyflakes-1.6.0

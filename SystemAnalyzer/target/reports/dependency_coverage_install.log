@@ -1,0 +1,4 @@
+Collecting coverage~=4.2
+  Using cached coverage-4.4.2-cp27-cp27mu-manylinux1_x86_64.whl
+Installing collected packages: coverage
+Successfully installed coverage-4.4.2

@@ -1,0 +1,59 @@
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+running sdist
+running egg_info
+creating SystemAnalyzer.egg-info
+writing requirements to SystemAnalyzer.egg-info/requires.txt
+writing SystemAnalyzer.egg-info/PKG-INFO
+writing namespace_packages to SystemAnalyzer.egg-info/namespace_packages.txt
+writing top-level names to SystemAnalyzer.egg-info/top_level.txt
+writing dependency_links to SystemAnalyzer.egg-info/dependency_links.txt
+writing manifest file 'SystemAnalyzer.egg-info/SOURCES.txt'
+reading manifest file 'SystemAnalyzer.egg-info/SOURCES.txt'
+writing manifest file 'SystemAnalyzer.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating SystemAnalyzer-1.0.dev0
+creating SystemAnalyzer-1.0.dev0/SystemAnalyzer.egg-info
+creating SystemAnalyzer-1.0.dev0/com
+creating SystemAnalyzer-1.0.dev0/com/appranix
+creating SystemAnalyzer-1.0.dev0/com/appranix/collector
+creating SystemAnalyzer-1.0.dev0/com/appranix/controller
+creating SystemAnalyzer-1.0.dev0/com/appranix/dbutil
+creating SystemAnalyzer-1.0.dev0/com/appranix/entities
+creating SystemAnalyzer-1.0.dev0/com/appranix/service
+creating SystemAnalyzer-1.0.dev0/scripts
+copying files to SystemAnalyzer-1.0.dev0...
+copying setup.py -> SystemAnalyzer-1.0.dev0
+copying SystemAnalyzer.egg-info/PKG-INFO -> SystemAnalyzer-1.0.dev0/SystemAnalyzer.egg-info
+copying SystemAnalyzer.egg-info/SOURCES.txt -> SystemAnalyzer-1.0.dev0/SystemAnalyzer.egg-info
+copying SystemAnalyzer.egg-info/dependency_links.txt -> SystemAnalyzer-1.0.dev0/SystemAnalyzer.egg-info
+copying SystemAnalyzer.egg-info/namespace_packages.txt -> SystemAnalyzer-1.0.dev0/SystemAnalyzer.egg-info
+copying SystemAnalyzer.egg-info/requires.txt -> SystemAnalyzer-1.0.dev0/SystemAnalyzer.egg-info
+copying SystemAnalyzer.egg-info/top_level.txt -> SystemAnalyzer-1.0.dev0/SystemAnalyzer.egg-info
+copying SystemAnalyzer.egg-info/zip-safe -> SystemAnalyzer-1.0.dev0/SystemAnalyzer.egg-info
+copying com/__init__.py -> SystemAnalyzer-1.0.dev0/com
+copying com/appranix/__init__.py -> SystemAnalyzer-1.0.dev0/com/appranix
+copying com/appranix/start_system_analyzer.py -> SystemAnalyzer-1.0.dev0/com/appranix
+copying com/appranix/collector/__init__.py -> SystemAnalyzer-1.0.dev0/com/appranix/collector
+copying com/appranix/collector/metrics_collector.py -> SystemAnalyzer-1.0.dev0/com/appranix/collector
+copying com/appranix/controller/__init__.py -> SystemAnalyzer-1.0.dev0/com/appranix/controller
+copying com/appranix/controller/reports_controller.py -> SystemAnalyzer-1.0.dev0/com/appranix/controller
+copying com/appranix/dbutil/DBUtil.py -> SystemAnalyzer-1.0.dev0/com/appranix/dbutil
+copying com/appranix/dbutil/__init__.py -> SystemAnalyzer-1.0.dev0/com/appranix/dbutil
+copying com/appranix/entities/__init__.py -> SystemAnalyzer-1.0.dev0/com/appranix/entities
+copying com/appranix/entities/report_data.py -> SystemAnalyzer-1.0.dev0/com/appranix/entities
+copying com/appranix/service/__init__.py -> SystemAnalyzer-1.0.dev0/com/appranix/service
+copying com/appranix/service/report_service.py -> SystemAnalyzer-1.0.dev0/com/appranix/service
+copying scripts/start_system_analyzer.py -> SystemAnalyzer-1.0.dev0/scripts
+Writing SystemAnalyzer-1.0.dev0/setup.cfg
+creating dist
+Creating tar archive
+removing 'SystemAnalyzer-1.0.dev0' (and everything under it)
