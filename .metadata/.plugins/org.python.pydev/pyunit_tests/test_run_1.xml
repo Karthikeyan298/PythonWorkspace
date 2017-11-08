@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="2" failures="0" finished="true" name="Test Run: 1" tests="0" total_time="Finished in: 0.00 secs."/>
+<test location="/home/user/PythonWorkspace/myproject/build.py" status="error" test="build" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/home/user/.eclipse/org.eclipse.platform_4.7.0_1473617060_linux_gtk_x86_64/plugins/org.python.pydev_6.1.0.201711051306/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/home/user/PythonWorkspace/myproject/build.py", line 1, in <module>
+    from pybuilder.core import use_plugin, init
+ImportError: No module named pybuilder.core
+ERROR: Module: build could not be imported (file: /home/user/PythonWorkspace/myproject/build.py).
+]]></stderr>
+</test>
+<test location="/home/user/PythonWorkspace/myproject/setup.py" status="error" test="setup" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/home/user/.eclipse/org.eclipse.platform_4.7.0_1473617060_linux_gtk_x86_64/plugins/org.python.pydev_6.1.0.201711051306/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/home/user/.eclipse/org.eclipse.platform_4.7.0_1473617060_linux_gtk_x86_64/plugins/org.python.pydev_6.1.0.201711051306/pysrc/setup.py", line 68, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+ERROR: Module: setup could not be imported (file: /home/user/PythonWorkspace/myproject/setup.py).
+]]></stderr>
+</test>
+<launch mode="debug">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="myproject myproject"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

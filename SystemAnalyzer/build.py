@@ -16,6 +16,9 @@ default_task = "publish"
 def set_properties(project):
     project.set_property("coverage_break_build", False) # default is True
     project.set_property("flake8_break_build", False)
+    project.set_property('distutils_entry_points', {
+    'some.entry.point': [
+        'value1 = com.appranix.start_system_analyzer:main']})
     project.depends_on("flask")
     project.depends_on("PyMySQL")
     project.depends_on("psutil")

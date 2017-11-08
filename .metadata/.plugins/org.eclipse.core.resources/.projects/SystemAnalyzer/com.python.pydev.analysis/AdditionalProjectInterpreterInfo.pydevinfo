@@ -1,0 +1,65 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/user/PythonWorkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/SystemAnalyzer/com.python.pydev.analysis/v2_indexcache
+com.appranix.service.__init__|1510128092000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/service/__init__.py
+com.appranix.start_system_analyzer|1509966538000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/main/python/com/appranix/start_system_analyzer.py
+com.__init__|1510127569000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/__init__.py
+com.appranix.dbutil.__init__|1510128019000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/dbutil/__init__.py
+com.appranix.dbutil.DBUtil_tests|1510128127000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/dbutil/DBUtil_tests.py
+com.appranix.controller.reports_controller|1509806269000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/main/python/com/appranix/controller/reports_controller.py
+com.appranix.service.report_service|1509779803000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/main/python/com/appranix/service/report_service.py
+com.appranix.entities.report_data|1509692405000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/main/python/com/appranix/entities/report_data.py
+com.appranix.controller.reports_controller_tests|1510127682000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/controller/reports_controller_tests.py
+com.appranix.collector.metrics_collector|1509777522000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/main/python/com/appranix/collector/metrics_collector.py
+com.appranix.controller.__init__|1510127569000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/controller/__init__.py
+com.appranix.__init__|1510127569000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/__init__.py
+com.appranix.dbutil.DBUtil|1509777846000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/main/python/com/appranix/dbutil/DBUtil.py
+com.appranix.service.report_service_tests|1510128122000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/service/report_service_tests.py
+com.appranix.entities.__init__|1509687313000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/main/python/com/appranix/entities/__init__.py
+com.appranix.collector.__init__|1510127699000000000|/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/collector/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+14=MetricsCollector
+4=com.appranix.start_system_analyzer
+12=ReportData.set_usage
+1=com.appranix.controller.reports_controller
+5=com.appranix.service.report_service
+13=ReportService.__init__
+6=com.appranix.entities.report_data
+8=ReportData.set_component
+2=com.appranix.collector.metrics_collector
+9=DBUtil
+10=ReportService
+7=ReportData
+3=com.appranix.dbutil.DBUtil
+11=ReportData.set_time
+-- END DICTIONARY
+-- START TREE 1
+9
+app|1|app!11@
+col|1|collector!19@
+dbu|1|DBUtil!25@
+get|2|get_cpu_report!10@get_virtual_memory_report!10@
+met|1|MetricsCollector!17@
+p|1|p!35@
+p1|1|p1!35@
+rep|2|ReportService!41@ReportData!49@
+sta|3|start_metric_collector!34@start_flask!10@start_flask!34@
+-- END TREE
+-- START TREE 2
+13
+__c|2|__component!7&51@__component!8&51@
+__i|2|__init__!9&26@__init__!10&42@
+__t|2|__time!7&51@__time!11&51@
+__u|2|__usage!7&51@__usage!12&51@
+col|0|
+con|1|connection!13&43@
+cpu|1|cpu_report_data!14&19@
+cre|3|create_connection!9&26@create_cpu_report!10&42@create_ram_report!10&42@
+do_|1|do_collect_metrics!14&18@
+get|7|get_all_ram_report!10&42@get_component!7&50@get_time!7&50@get_cpu_metrics!14&18@get_all_cpu_report!10&42@get_usage!7&50@get_ram_metrics!14&18@
+ram|1|ram_report_data!14&19@
+set|3|set_usage!7&50@set_component!7&50@set_time!7&50@
+tes|0|
+-- END TREE

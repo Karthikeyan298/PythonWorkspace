@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/home/user/PythonWorkspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1766994567.index
+2246002919.index
+3596325961.index
+115562648.index
+546895712.index
+4046509043.index

@@ -1,0 +1,17 @@
+'''
+Created on 08-Nov-2017
+
+@author: user
+'''
+import unittest
+from com.appranix.collector.metrics_collector import MetricsCollector
+
+class MetricsCollectorTests(unittest.TestCase):
+    # ..... setup section.....
+
+    def test_get_cpu_metrics(self):
+        pass
+
+
+if __name__ == '__main__':
+    unittest.main()

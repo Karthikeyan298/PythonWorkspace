@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 7" tests="0" total_time="Finished in: 0.00 secs."/>
+<test location="/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/collector/metrics_collector_tests.py" status="error" test="metrics_collector_tests" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/home/user/.eclipse/org.eclipse.platform_4.7.0_1473617060_linux_gtk_x86_64/plugins/org.python.pydev_6.1.0.201711051306/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/collector/metrics_collector_tests.py", line 7, in <module>
+    import com.appranix
+ImportError: No module named com.appranix
+ERROR: Module: metrics_collector_tests could not be imported (file: /home/user/PythonWorkspace/SystemAnalyzer/src/unittest/python/com/appranix/collector/metrics_collector_tests.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="SystemAnalyzer metrics_collector_tests.py"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>
